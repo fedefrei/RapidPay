@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RapidPay.API</name>
+    </assembly>
+    <members>
+        <member name="M:RapidPay.API.Controllers.CardController.CreateCard(RapidPay.API.Models.Card.CardCreateRequest)">
+            <summary>
+            Attempts to create a card and if valid, it returns the card data with the hash
+            </summary>
+            <returns>IActionResult</returns>
+            <response code="200">Returns the card data</response>
+        </member>
+        <member name="M:RapidPay.API.Controllers.CardController.GetCardBalance(RapidPay.API.Models.Card.CardBalanceRequest)">
+            <summary>
+            Attempts to get the card balance for the hash/ccv combination
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RapidPay.API.Controllers.PaymentController.ProcessPayment(RapidPay.API.Models.Payment.PaymentRequest)">
+            <summary>
+            Processes a payment for the given card hash/CCV combinations
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

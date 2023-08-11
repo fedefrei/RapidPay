@@ -1,0 +1,20 @@
+{
+  "Serilog": {
+    "MinimumLevel": {
+      "Default": "Verbose",
+      "Override": {
+        "Microsoft": "Warning",
+        "Microsoft.Hosting.Lifetime": "Information",
+        "Microsoft.AspNetCore.Authentication": "Debug",
+        "System": "Warning"
+      }
+    }
+  },
+  "Clients": {
+    "Swagger": {
+      "ClientSecret": "secret",
+      "SwaggerURI": "https://localhost:7131",
+      "RedirectUri": "https://localhost:7131/swagger/oauth2-redirect.html"
+    }
+  }
+}

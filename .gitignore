@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+RapidPay.API/appsettings.json
+RapidPay.IDP/keys
+RapidPay.IDP/appsettings.json
